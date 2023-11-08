@@ -13,11 +13,11 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 
 ## Architecture Before Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
-<img width="500" alt="Architecture_Before_Hardening" src="https://github.com/KunleAdesanmi/AzureCloud-SOC/assets/96393713/07a3dbfe-383e-433a-b092-f7e500e60f9e">
+<img width="900" alt="Architecture_Before_Hardening" src="https://github.com/KunleAdesanmi/AzureCloud-SOC/assets/96393713/07a3dbfe-383e-433a-b092-f7e500e60f9e">
 
 ## Architecture After Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
-<img width="500" alt="Architecture_After_Hardening" src="https://github.com/KunleAdesanmi/AzureCloud-SOC/assets/96393713/e8ec14e4-723f-4c63-8683-f96ff02a37bf">
+<img width="900" alt="Architecture_After_Hardening" src="https://github.com/KunleAdesanmi/AzureCloud-SOC/assets/96393713/e8ec14e4-723f-4c63-8683-f96ff02a37bf">
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
@@ -35,8 +35,15 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 
 ## Attack Maps Before Hardening / Security Controls
 ![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
+<img width="1000" alt="nsg-malicious-allowed-in_before" src="https://github.com/KunleAdesanmi/AzureCloud-SOC/assets/96393713/07fa8b72-12a9-485e-aec6-879d551a6693">
+
 ![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
+<img width="1000" alt="linux-ssh-auth-fail_before" src="https://github.com/KunleAdesanmi/AzureCloud-SOC/assets/96393713/cea03c47-c536-4c58-8abf-d2a5ace6f57c">
+
 ![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
+<img width="1000" alt="windows-rdp-auth-fail_before" src="https://github.com/KunleAdesanmi/AzureCloud-SOC/assets/96393713/7e17f89e-0fb7-49c5-90a5-1c14116a8ebf">
+<img width="1000" alt="mssql-auth-fail_before" src="https://github.com/KunleAdesanmi/AzureCloud-SOC/assets/96393713/57f1156b-6799-442d-84b6-b655151510d9">
+
 
 ## Metrics Before Hardening / Security Controls
 
